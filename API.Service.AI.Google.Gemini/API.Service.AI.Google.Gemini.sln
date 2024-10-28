@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71A008B4-F1B0-40A1-8439-884F7A779B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{C8BCB8A7-7A7C-4C6F-8FC3-DA0FC5E218AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{B3DA244C-64E9-416E-BD0F-7F13ABACAD14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{7FA00109-85D0-4E55-8390-A8C536F2B554}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Service.AI.Google.Gemini.Service", "src\API.Service.AI.Google.Gemini.Service\API.Service.AI.Google.Gemini.Service.csproj", "{E289A7D0-C309-4684-BC7E-609E5C9B9595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Service.AI.Google.Gemini.Domain", "src\API.Service.AI.Google.Gemini.Domain\API.Service.AI.Google.Gemini.Domain.csproj", "{9D664726-7FF2-4681-967B-B8A9D45D5B3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Service.AI.Google.Gemini.Models", "src\API.Service.AI.Google.Gemini.Models\API.Service.AI.Google.Gemini.Models.csproj", "{7365074C-AF8F-4A97-A6F7-C783698DD712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DE433B1-3731-4AFC-A3BB-A30935E84AB1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E289A7D0-C309-4684-BC7E-609E5C9B9595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E289A7D0-C309-4684-BC7E-609E5C9B9595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E289A7D0-C309-4684-BC7E-609E5C9B9595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E289A7D0-C309-4684-BC7E-609E5C9B9595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D664726-7FF2-4681-967B-B8A9D45D5B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D664726-7FF2-4681-967B-B8A9D45D5B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D664726-7FF2-4681-967B-B8A9D45D5B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D664726-7FF2-4681-967B-B8A9D45D5B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7365074C-AF8F-4A97-A6F7-C783698DD712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7365074C-AF8F-4A97-A6F7-C783698DD712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7365074C-AF8F-4A97-A6F7-C783698DD712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7365074C-AF8F-4A97-A6F7-C783698DD712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8BCB8A7-7A7C-4C6F-8FC3-DA0FC5E218AA} = {71A008B4-F1B0-40A1-8439-884F7A779B8C}
+		{B3DA244C-64E9-416E-BD0F-7F13ABACAD14} = {71A008B4-F1B0-40A1-8439-884F7A779B8C}
+		{7FA00109-85D0-4E55-8390-A8C536F2B554} = {71A008B4-F1B0-40A1-8439-884F7A779B8C}
+		{E289A7D0-C309-4684-BC7E-609E5C9B9595} = {C8BCB8A7-7A7C-4C6F-8FC3-DA0FC5E218AA}
+		{9D664726-7FF2-4681-967B-B8A9D45D5B3E} = {B3DA244C-64E9-416E-BD0F-7F13ABACAD14}
+		{7365074C-AF8F-4A97-A6F7-C783698DD712} = {7FA00109-85D0-4E55-8390-A8C536F2B554}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDDB4EBC-6F24-4F6D-A1B3-270D419DFDF1}
+	EndGlobalSection
+EndGlobal
